@@ -3,7 +3,7 @@ const Categoria = require('./categoria');
 const rol = require('./role');
 const server = require('./server');
 const usuario = require('./usuario');
-const productos = require('./productos');
+const Producto = require('./producto');
 
 
 
@@ -12,5 +12,5 @@ module.exports = {
     rol,
     server,
     usuario,
-    productos   
+    Producto   
 }

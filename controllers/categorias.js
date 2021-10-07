@@ -64,7 +64,6 @@ const crearCategoria = async (req, res = response) => {
 }
 
 // Actualizar Categoria
-
 const UpdateCategoria = async (req, res = response) => {
 
     const { id } = req.params;
@@ -80,8 +79,6 @@ const UpdateCategoria = async (req, res = response) => {
 }
 
 // Borrar Categoría - estado: false
-
-
 const CategoriaDelete = async (req, res = response) => {
     const { id } = req.params;
 
